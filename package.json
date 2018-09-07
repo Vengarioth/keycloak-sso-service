@@ -1,0 +1,20 @@
+{
+  "name": "keycloak-sso-service",
+  "version": "0.1.0",
+  "description": "Stateless SSO REST API Service to be used in front of Keycloak",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Andreas Fischer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-prettify": "^0.1.0",
+    "jsonwebtoken": "^8.3.0",
+    "qs": "^6.5.2",
+    "rsa-pem-from-mod-exp": "^0.8.4"
+  }
+}
